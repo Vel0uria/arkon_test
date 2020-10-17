@@ -22,6 +22,9 @@ const useStyles = makeStyles(() => ({
     alignSelf: "flex-start",
     "& Button": {
       marginLeft: 70,
+      paddingLeft: "35px",
+      paddingRight: "35px",
+      backgroundColor: "black",
     },
   },
 }));
