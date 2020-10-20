@@ -1,97 +1,97 @@
-import React, { useState, useEffect } from "react";
-import { Button, Box } from "@material-ui/core";
-import TextField from "@material-ui/core/TextField";
+import React, {
+  useState
+} from "react";
+import {
+  Button,
+  Box,
+} from "@material-ui/core";
 import useStyles from "../index.styles";
-import useForm from "../customHooks/useForm";
+import AlbumIcon from "@material-ui/icons/Album";
+import Brightness7TwoToneIcon from '@material-ui/icons/Brightness7TwoTone';
+import Brightness4TwoToneIcon from '@material-ui/icons/Brightness4TwoTone';
+import BrightnessMediumTwoToneIcon from '@material-ui/icons/BrightnessMediumTwoTone';
+//import SubwayTwoToneIcon from '@material-ui/icons/SubwayTwoTone';
+import Brightness2TwoToneIcon from '@material-ui/icons/Brightness2TwoTone';
+import Brightness1TwoToneIcon from '@material-ui/icons/Brightness1TwoTone';
+import AcUnitIcon from '@material-ui/icons/AcUnit';
 function Home() {
   const classes = useStyles();
-  const start = new Date();
+
   const [show, showForm] = useState(false);
-  const [form, handleInputs] = useForm();
+  const [showw, showwForm] = useState(false);
+  const [showww, showwwForm] = useState(false);
+  const [showwww, showwwwForm] = useState(false);
+  const [showwwww, showwwwwForm] = useState(false);
+  const [showwwwww, showwwwwwForm] = useState(false);
+  const [showwwwwww, showwwwwwwForm] = useState(false);
+  return ( 
+    <Box className = {classes.root}>
+      <h1 > Productivity App </h1> 
+      <Button onClick = {
+        () => showForm(!show)
+      } > Quién eres
+       </Button> 
+      {show &&
+          <Box component = "form" className = {classes.textField} >
+          < h2 > Soy lo que llamas el mundo. </h2> 
+          <Button onClick = {
+            () => showwForm(!showw)
+          } >
+            <Brightness7TwoToneIcon fontSize="large"/>
+          </Button> 
+          {showw &&
+              <>
+              <h3 > O quizás el universo </h3> 
+              <Button onClick = {
+                () => showwwForm(!showww)}>
+              <Brightness4TwoToneIcon fontSize="large"/>
+              </Button> </>} 
+              {showww &&
+                  <>
+                  < h4 > O quizá Dios </h4> 
+                  < Button onClick = {
+                    () => showwwwForm(!showwww)
+                  } >
+                  <Brightness2TwoToneIcon />
+                  </Button> 
+                  </>} 
+                  {  showwww &&
+                  <>
+                  <h5 > O quizá la Verdad </h5> 
+                  <Button onClick = {
+                    () => showwwwwForm(!showwwwww)
+                  } >
+                  <BrightnessMediumTwoToneIcon fontSize="medium"/>
+                  </Button> 
+                  </>
+              } 
+              {showwwww &&
+                  <>
+                  <h6> O quizás Todo </h6> 
+                  <Button onClick = {
+                    () => showwwwwwForm(!showwwwwww)
+                  } >
+                  < Brightness1TwoToneIcon/>
+                  </Button> </> } 
+                  {  showwwwww &&
+                  <>
+                  <p className={classes.uno}>
+                  O quizás Uno</p>
+                   <Button onClick = {
+                    () => showwwwwwwForm(!showwwwwww)
+                  } >
+                  < AlbumIcon fontSize="small"/>
+                  </Button>
+             </>} 
+                  </Box>}
+                           {showwwwwww &&
+                           <Box>
+                  <p style={{color:"#f50e65", fontSize:"xx-large", fontFamily:"Cinzel Decorative"}}>
+              Y TAMBIÉN SOY TÚ</p>
+                </Box>
+ }   
+            </Box>
+          );
+      }
 
-  const calculateTimeLeft = e => {
-    console.log(e);
-    const difference = +new Date(e) - +new Date();
-    let timeLeft = {};
-    if (difference > 0) {
-      timeLeft = {
-        días: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        horas: Math.floor(difference / (1000 * 60 * 60) % 24),
-        minutos: Math.floor(difference / 1000 / 60 % 60),
-        segundos: Math.floor(difference / 1000 % 60),
-      };
-    }
-    return timeLeft;
-  };
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setTimeLeft(calculateTimeLeft());
-  //   }, 1000);
-  // });
-
-  const timerComponents = [];
-
-  Object.keys(timeLeft).forEach(interval => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-    timerComponents.push(
-      <span>
-        {timeLeft[interval]} {interval}{" "}
-      </span>
-    );
-  });
-  //  console.log(timeLeft);
-  // function saveTask(e) {
-  //   console.log(start);
-  // }
-
-  return (
-    <Box className={classes.home}>
-      <h1>Super Turbo Productivity App</h1>
-      <Button onClick={() => showForm(!show)}>Nueva tarea</Button>
-      {/* {show && */}
-      <Box component="form" className={classes.textField}>
-        <TextField
-          fullWidth
-          id="filled-basic"
-          label="Descripción"
-          variant="filled"
-          color="secondary"
-          multiline
-          InputLabelProps={{ style: { color: "lightgray" } }}
-        />
-        <TextField
-          id="datetime-local"
-          label="Fecha límite"
-          type="datetime-local"
-          defaultValue={start}
-          variant="filled"
-          color="secondary"
-          size="medium"
-          fullWidth
-          onChange={e => {
-            handleInputs(e);
-            calculateTimeLeft(e.target.value);
-          }}
-          InputProps={{ style: { color: "lightgray", marginLeft: 20 } }}
-          InputLabelProps={{
-            style: {
-              color: "gray",
-              marginLeft: 20,
-              fontSize: "small",
-              marginTop: -10,
-            },
-          }}
-        />
-        {timerComponents.length ? timerComponents : <h2>Time's up!</h2>}
-        <Button>AGREGAR</Button>
-      </Box>
-      {/* } */}
-    </Box>
-  );
-}
-
-export default Home;
+      export default Home;

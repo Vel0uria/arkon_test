@@ -1,15 +1,20 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(() => ({
-  home: {
+  root: {
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
     fontFamily: "Commissioner",
-    backgroundColor: "#3e3c3a",
-    color: "whitesmoke",
-    padding: 100,
+    backgroundColor: "#3e3c4a",
+    // backgroundImage: `URL(
+    //  ${"https://cultura-gamer.com/wp-content/uploads/2020/07/cyberpunk-2077-33.jpg"}
+    // )`,
+    backgroundSize: "100%",
+    backgroundRepeat: "no-repeat",
+    color: "gray",
+    padding: 200,
 
     "& Button": {
       color: "aliceblue",
@@ -17,14 +22,21 @@ const useStyles = makeStyles(() => ({
       //   backgroundColor: "black",
     },
   },
+
   textField: {
     display: "flex",
+    flexDirection: "column",
     alignSelf: "flex-start",
-    "& Button": {
-      marginLeft: 70,
-      paddingLeft: "35px",
-      paddingRight: "35px",
-      backgroundColor: "black",
+    "& p": {
+      fontSize: "0.64em",
+      //  marginLeft: 70,
+      // paddingLeft: "25px",
+      // paddingRight: "25px",
+      //backgroundColor: "black",
+    },
+    tu: {
+      display: "flex",
+      color: "red",
     },
   },
 }));
