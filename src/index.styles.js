@@ -8,6 +8,7 @@ const useStyles = makeStyles(() => ({
     alignItems: "center",
     fontFamily: "Commissioner",
     backgroundColor: "#3e3c4a",
+    fontWeight: "normal",
     // backgroundImage: `URL(
     //  ${"https://cultura-gamer.com/wp-content/uploads/2020/07/cyberpunk-2077-33.jpg"}
     // )`,
@@ -15,10 +16,9 @@ const useStyles = makeStyles(() => ({
     backgroundRepeat: "no-repeat",
     color: "gray",
     padding: 200,
-
     "& Button": {
-      color: "aliceblue",
       margin: 10,
+      color: "#4e4c5a",
       //   backgroundColor: "black",
     },
   },
@@ -27,6 +27,7 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "column",
     alignSelf: "flex-start",
+    fontWeight: "normal",
     "& p": {
       fontSize: "0.64em",
       //  marginLeft: 70,
@@ -34,11 +35,19 @@ const useStyles = makeStyles(() => ({
       // paddingRight: "25px",
       //backgroundColor: "black",
     },
-    tu: {
-      display: "flex",
-      color: "red",
-    },
   },
+  container: {
+    display: "flex",
+    alignSelf: "center",
+    position: "relative",
+    textAlign: "center",
+
+    // color: "red",
+  },
+  image: {
+    opacity: 0.5,
+  },
+  tuContainer: {},
 }));
 
 export default useStyles;

@@ -1,19 +1,15 @@
-import React, {
-  useState
-} from "react";
-import {
-  Button,
-  Box,
-} from "@material-ui/core";
+/* eslint-disable jsx-a11y/alt-text */
+import React, { useState } from "react";
+import { Button, Box } from "@material-ui/core";
+import loop from "../assets/elBueno.gif";
 import useStyles from "../index.styles";
-import AlbumIcon from "@material-ui/icons/Album";
-import Brightness7TwoToneIcon from '@material-ui/icons/Brightness7TwoTone';
-import Brightness4TwoToneIcon from '@material-ui/icons/Brightness4TwoTone';
-import BrightnessMediumTwoToneIcon from '@material-ui/icons/BrightnessMediumTwoTone';
+//import RadioButtonCheckedTwoToneIcon from "@material-ui/icons/RadioButtonCheckedTwoTone";
+//import Brightness7TwoToneIcon from "@material-ui/icons/Brightness7TwoTone";
+//import Brightness4TwoToneIcon from "@material-ui/icons/Brightness4TwoTone";
+//import BrightnessMediumTwoToneIcon from "@material-ui/icons/BrightnessMediumTwoTone";
 //import SubwayTwoToneIcon from '@material-ui/icons/SubwayTwoTone';
-import Brightness2TwoToneIcon from '@material-ui/icons/Brightness2TwoTone';
-import Brightness1TwoToneIcon from '@material-ui/icons/Brightness1TwoTone';
-import AcUnitIcon from '@material-ui/icons/AcUnit';
+//import Brightness2TwoToneIcon from "@material-ui/icons/Brightness2TwoTone";
+//import Brightness1TwoToneIcon from "@material-ui/icons/Brightness1TwoTone";
 function Home() {
   const classes = useStyles();
 
@@ -24,74 +20,74 @@ function Home() {
   const [showwwww, showwwwwForm] = useState(false);
   const [showwwwww, showwwwwwForm] = useState(false);
   const [showwwwwww, showwwwwwwForm] = useState(false);
-  return ( 
-    <Box className = {classes.root}>
-      <h1 > Productivity App </h1> 
-      <Button onClick = {
-        () => showForm(!show)
-      } > Quién eres
-       </Button> 
+  return (
+    <Box className={classes.root}>
+      <Button onClick={() => showForm(!show)}>
+        <h1>Quién eres</h1>
+      </Button>
       {show &&
-          <Box component = "form" className = {classes.textField} >
-          < h2 > Soy lo que llamas el mundo. </h2> 
-          <Button onClick = {
-            () => showwForm(!showw)
-          } >
-            <Brightness7TwoToneIcon fontSize="large"/>
-          </Button> 
+        <Box component="form" className={classes.textField}>
+          <h2> Soy lo que llamas el mundo. </h2>
+          <Button onClick={() => showwForm(!showw)}>
+            {/* <Brightness7TwoToneIcon fontSize="large" /> */}
+          </Button>
           {showw &&
-              <>
-              <h3 > O quizás el universo </h3> 
-              <Button onClick = {
-                () => showwwForm(!showww)}>
-              <Brightness4TwoToneIcon fontSize="large"/>
-              </Button> </>} 
-              {showww &&
-                  <>
-                  < h4 > O quizá Dios </h4> 
-                  < Button onClick = {
-                    () => showwwwForm(!showwww)
-                  } >
-                  <Brightness2TwoToneIcon />
-                  </Button> 
-                  </>} 
-                  {  showwww &&
-                  <>
-                  <h5 > O quizá la Verdad </h5> 
-                  <Button onClick = {
-                    () => showwwwwForm(!showwwwww)
-                  } >
-                  <BrightnessMediumTwoToneIcon fontSize="medium"/>
-                  </Button> 
-                  </>
-              } 
-              {showwwww &&
-                  <>
-                  <h6> O quizás Todo </h6> 
-                  <Button onClick = {
-                    () => showwwwwwForm(!showwwwwww)
-                  } >
-                  < Brightness1TwoToneIcon/>
-                  </Button> </> } 
-                  {  showwwwww &&
-                  <>
-                  <p className={classes.uno}>
-                  O quizás Uno</p>
-                   <Button onClick = {
-                    () => showwwwwwwForm(!showwwwwww)
-                  } >
-                  < AlbumIcon fontSize="small"/>
-                  </Button>
-             </>} 
-                  </Box>}
-                           {showwwwwww &&
-                           <Box>
-                  <p style={{color:"#f50e65", fontSize:"xx-large", fontFamily:"Cinzel Decorative"}}>
-              Y TAMBIÉN SOY TÚ</p>
-                </Box>
- }   
-            </Box>
-          );
-      }
+            <div>
+              <h3> O quizás el universo </h3>
+              <Button onClick={() => showwwForm(!showww)}>
+                {/* <Brightness4TwoToneIcon fontSize="large" /> */}
+              </Button>
+            </div>}
+          {showww &&
+            <div>
+              <h4> O quizá Dios </h4>
+              <Button onClick={() => showwwwForm(!showwww)}>
+                {/* <Brightness2TwoToneIcon /> */}
+              </Button>
+            </div>}
+          {showwww &&
+            <div>
+              <h5> O quizá la Verdad </h5>
+              <Button onClick={() => showwwwwForm(!showwwwww)}>
+                {/* <BrightnessMediumTwoToneIcon fontSize="medium" /> */}
+              </Button>
+            </div>}
+          {showwwww &&
+            <div>
+              <h6> O quizás Todo </h6>
+              <Button onClick={() => showwwwwwForm(!showwwwwww)}>
+                {/* <Brightness1TwoToneIcon /> */}
+              </Button>
+            </div>}
+          {showwwwww &&
+            <div>
+              <p className={classes.uno}>O quizás Uno</p>
+              <Button onClick={() => showwwwwwwForm(!showwwwwww)}>
+                {/* <RadioButtonCheckedTwoToneIcon fontSize="small" /> */}
+              </Button>
+            </div>}
+        </Box>}
+      {showwwwwww &&
+        <Box>
+          <Box className={classes.container}>
+            <img src={loop} className={classes.image} />
+            <p
+              style={{
+                color: "goldenrod",
+                fontSize: "xxx-large",
+                fontWeight: "bolder",
+                position: "absolute",
+                top: "40%",
+                left: "50%",
+                transform: `translate(${-50}%, ${-50}%)`,
+              }}
+            >
+              Y TAMBIÉN SOY TÚ
+            </p>
+          </Box>
+        </Box>}
+    </Box>
+  );
+}
 
-      export default Home;
+export default Home;
