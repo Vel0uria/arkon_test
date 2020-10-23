@@ -21,6 +21,9 @@ const useStyles = makeStyles(() => ({
       color: "#4e4c5a",
       //   backgroundColor: "black",
     },
+    "& a": {
+      color: "pink",
+    },
   },
 
   textField: {
@@ -41,13 +44,18 @@ const useStyles = makeStyles(() => ({
     alignSelf: "center",
     position: "relative",
     textAlign: "center",
-
-    // color: "red",
   },
   image: {
     opacity: 0.5,
   },
-  tuContainer: {},
+  star: {
+    marginTop: 0,
+    marginBottom: 50,
+    color: "#3e3c4a",
+    "&:hover": {
+      color: "silver",
+    },
+  },
 }));
 
 export default useStyles;
