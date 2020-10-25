@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Hall from "./components/Hall";
-import Feminismo from "./components/Feminismo";
+import Feminismo from "./components/Fuego/Feminismo";
 function Router() {
   return (
     <BrowserRouter>

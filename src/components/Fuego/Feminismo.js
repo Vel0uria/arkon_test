@@ -1,5 +1,5 @@
 import React from "react";
-import useStyles from "../index.styles";
+import useStyles from "../../index.styles";
 import { Box, List, ListItem } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnkh } from "@fortawesome/free-solid-svg-icons";

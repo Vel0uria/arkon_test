@@ -14,16 +14,28 @@ const useStyles = makeStyles(() => ({
     // )`,
     color: "gray",
     padding: 200,
+    maxHeight: 1000,
     "& Button": {
       margin: 10,
       color: "#4e4c5a",
       //   backgroundColor: "black",
     },
-    "& a": {
-      color: "pink",
+    // "& a": {
+    //   color: "pink",
+    // },
+    "& h1": {
+      fontWeight: "normal",
+    },
+    "&:hover": {
+      color: "#937bc3s",
     },
   },
-
+  icons: {
+    color: "gray",
+    "&:hover": {
+      color: "goldenrod",
+    },
+  },
   textField: {
     display: "flex",
     flexDirection: "column",
@@ -47,11 +59,15 @@ const useStyles = makeStyles(() => ({
     opacity: 0.5,
   },
   star: {
-    marginTop: 0,
-    marginBottom: 50,
-    color: "#3e3c4a",
-    "&:hover": {
-      color: "silver",
+    marginTop: 100,
+    marginBottom: 300,
+    color: "#937bc3s",
+
+    "& Button": {
+      color: "#937bc3s",
+      "&:hover": {
+        color: "#937bc3s",
+      },
     },
   },
   feminism: {
