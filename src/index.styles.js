@@ -12,8 +12,6 @@ const useStyles = makeStyles(() => ({
     // backgroundImage: `URL(
     //  ${"https://cultura-gamer.com/wp-content/uploads/2020/07/cyberpunk-2077-33.jpg"}
     // )`,
-    backgroundSize: "100%",
-    backgroundRepeat: "no-repeat",
     color: "gray",
     padding: 200,
     "& Button": {
@@ -54,6 +52,21 @@ const useStyles = makeStyles(() => ({
     color: "#3e3c4a",
     "&:hover": {
       color: "silver",
+    },
+  },
+  feminism: {
+    display: "flex",
+    fontFamily: "Cinzel Decorative",
+    fontSize: "larger",
+    color: "goldenrod",
+    backgroundColor: "#3e3c4a",
+    flexDirection: "column",
+    alignItems: "center",
+    paddingTop: 120,
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
     },
   },
 }));
