@@ -9,6 +9,8 @@ import OpacitySharpIcon from "@material-ui/icons/OpacitySharp";
 import AllInclusiveSharpIcon from "@material-ui/icons/AllInclusiveSharp";
 import WavesIcon from "@material-ui/icons/Waves";
 import FiberManualRecordTwoToneIcon from "@material-ui/icons/FiberManualRecordTwoTone";
+import BottomNavigation from "@material-ui/core/BottomNavigation";
+import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 
 function Hall() {
   const classes = useStyles();
@@ -23,18 +25,33 @@ function Hall() {
       </Box>
       <Box className={classes.icons}>
         {/* <Link> */}
-        <WhatshotOutlinedIcon fontSize="large" />
+        <Button>
+          <WhatshotOutlinedIcon fontSize="large" className={classes.iFire} />
+        </Button>
         {/* </Link> */}
         {/* <Link> */}
-        <WavesIcon fontSize="large" />
+        <Button>
+          <WavesIcon fontSize="large" className={classes.iAir} />
+        </Button>
         {/* </Link> */}
         {/* <Link to="/feminismo"> */}
-        <OpacitySharpIcon fontSize="large" />
+        <Button>
+          <OpacitySharpIcon fontSize="large" className={classes.iWater} />
+        </Button>
         {/* </Link> */}
         {/* <Link> */}
-        <FiberManualRecordTwoToneIcon fontSize="large" />
+        <Button>
+          <FiberManualRecordTwoToneIcon
+            fontSize="large"
+            className={classes.iEarth}
+          />
+        </Button>
+
         {/* </Link> */}
       </Box>
+      <BottomNavigation showLabels color="primary" className={classes.nav}>
+        <BottomNavigationAction label="Agradecimientos" />
+      </BottomNavigation>
     </Box>
   );
 }

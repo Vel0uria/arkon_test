@@ -15,11 +15,7 @@ const useStyles = makeStyles(() => ({
     color: "gray",
     padding: 200,
     maxHeight: 1000,
-    "& Button": {
-      margin: 10,
-      color: "#4e4c5a",
-      //   backgroundColor: "black",
-    },
+
     // "& a": {
     //   color: "pink",
     // },
@@ -32,8 +28,13 @@ const useStyles = makeStyles(() => ({
   },
   icons: {
     color: "gray",
-    "&:hover": {
-      color: "goldenrod",
+    "& Button": {
+      marginLeft: 20,
+      color: "#4e4c5a",
+      //   backgroundColor: "black",
+      // "&:hover": {
+      //   color: "goldenrod",
+      // },
     },
   },
   textField: {
@@ -59,16 +60,32 @@ const useStyles = makeStyles(() => ({
     opacity: 0.5,
   },
   star: {
-    marginTop: 100,
+    //marginTop: 10,
+    // color: "#4e4c5a",
     marginBottom: 300,
-    color: "#937bc3s",
-
+    // color: "",
     "& Button": {
-      color: "#937bc3s",
+      color: "#3e3c4a",
       "&:hover": {
-        color: "#937bc3s",
+        color: "#947bc2",
       },
     },
+  },
+  iFire: {
+    "&:hover": {
+      color: "crimson",
+    },
+  },
+  iAir: {
+    ":hover": {
+      color: "aliceblue",
+    },
+  },
+  agua: {
+    display: "flex",
+    alignSelf: "flex-start",
+    flexDirection: "column",
+    alignItems: "space-around",
   },
   feminism: {
     display: "flex",
@@ -84,6 +101,15 @@ const useStyles = makeStyles(() => ({
       color: "gray",
       fontFamily: "Commissioner",
     },
+    "& img": {
+      width: 100,
+      color: "#fc3b7f",
+    },
+  },
+  nav: {
+    width: "100%",
+    margin: 10,
+    opacity: 0,
   },
 }));
 

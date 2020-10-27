@@ -2,16 +2,16 @@ import React from "react";
 import useStyles from "../../index.styles";
 import { Box, List, ListItem } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnkh } from "@fortawesome/free-solid-svg-icons";
+import { faVenus } from "@fortawesome/free-solid-svg-icons";
 
 function Feminismo() {
   const classes = useStyles();
   return (
     <Box className={classes.feminism}>
-      <h1>Mundus Sofiarum</h1>
       <FontAwesomeIcon
-        icon={faAnkh}
-        style={{ fontSize: "xxx-large", color: "#fc3b7f", padding: 80 }}
+        icon={faVenus}
+        fontSize="large"
+        style={{ fontSize: "xxx-large", color: "violet", padding: 80 }}
       />
       <List>
         <ListItem>
