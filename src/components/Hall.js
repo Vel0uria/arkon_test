@@ -34,11 +34,11 @@ function Hall() {
           <WavesIcon fontSize="large" className={classes.iAir} />
         </Button>
         {/* </Link> */}
-        {/* <Link to="/feminismo"> */}
-        <Button>
-          <OpacitySharpIcon fontSize="large" className={classes.iWater} />
-        </Button>
-        {/* </Link> */}
+        <Link to="/agua">
+          <Button>
+            <OpacitySharpIcon fontSize="large" className={classes.iWater} />
+          </Button>
+        </Link>
         {/* <Link> */}
         <Button>
           <FiberManualRecordTwoToneIcon

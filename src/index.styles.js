@@ -57,7 +57,7 @@ const useStyles = makeStyles(() => ({
     textAlign: "center",
   },
   image: {
-    opacity: 0.5,
+    //  opacity: 0.5,
   },
   star: {
     //marginTop: 10,
@@ -72,14 +72,16 @@ const useStyles = makeStyles(() => ({
     },
   },
   iFire: {
-    "&:hover": {
-      color: "crimson",
-    },
+    "&:hover": { color: "#e63b00" },
   },
   iAir: {
-    ":hover": {
-      color: "aliceblue",
-    },
+    "&:hover": { color: "#a8d4f8" },
+  },
+  iWater: {
+    "&:hover": { color: "#365795" },
+  },
+  iEarth: {
+    "&:hover": { color: "#d99717" },
   },
   agua: {
     display: "flex",
