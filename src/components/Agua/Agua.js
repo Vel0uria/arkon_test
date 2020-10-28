@@ -15,21 +15,27 @@ function Agua() {
           style={{ color: "lightblue", fontSize: "xxx-large" }}
         />
       </Box>
-      <Box className={classes.agua}>
-        <Link to="/feminismo">
-          <FontAwesomeIcon
-            icon={faVenus}
-            style={{ fontSize: "xx-large", color: "silver" }}
-          />
-        </Link>
-        <Link>
-          <FontAwesomeIcon
-            icon={faPaintBrush}
-            style={{ fontSize: "large", color: "silver" }}
-          />
-        </Link>
-      </Box>
+      {/* <Box className={classes.agua}> */}
+      <List>
+        <ListItem>
+          <Link to="/feminismo">
+            <FontAwesomeIcon
+              icon={faVenus}
+              style={{ fontSize: "xx-large", color: "silver" }}
+            />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link>
+            <FontAwesomeIcon
+              icon={faPaintBrush}
+              style={{ fontSize: "large", color: "silver" }}
+            />
+          </Link>
+        </ListItem>
+      </List>
     </Box>
+    // </Box>
   );
 }
 

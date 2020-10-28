@@ -22,11 +22,11 @@ function Home() {
         </Button>
       </Box>
       <Box className={classes.icons}>
-        {/* <Link> */}
-        <Button>
-          <WhatshotOutlinedIcon fontSize="large" className={classes.iFire} />
-        </Button>
-        {/* </Link> */}
+        <Link to="/fuego">
+          <Button>
+            <WhatshotOutlinedIcon fontSize="large" className={classes.iFire} />
+          </Button>
+        </Link>
         {/* <Link> */}
         <Button>
           <WavesIcon fontSize="large" className={classes.iAir} />

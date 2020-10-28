@@ -429,6 +429,43 @@ function Feminismo() {
             Gargallo, Francesca - Ideas feministas latinoamericanas
           </a>
         </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJMhmAZhmd3YMoWzw?e=z1d1VD"}
+          >
+            Gil, Silvia - Nuevos Feminismos. Sentidos Comunes En La Dispersión
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIthvpBqwz5F6d-_w?e=7aAequ"}
+          >
+            Golubov, Nattie - Crítica Literaria Feminista
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJq3BElPkdLZVvEcQ?e=UHbF9h"}
+          >
+            Gómez Sánchez, Lucía - Procesos de subjetivación y movimiento
+            feminista
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIthvpBqwz5F6d-_w?e=7aAequ"}
+          >
+            Guardia, Sara Beatriz - Escritura de la historia de las mujeres en
+            America Latina
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJc7z-UftMNQ70s0w?e=rmDdAz"}
+          >
+            Haraway, Donna - Ciencia, cyborgs y mujeres
+          </a>
+        </ListItem>
       </List>
     </Box>
   );
