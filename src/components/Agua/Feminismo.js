@@ -202,7 +202,7 @@ function Feminismo() {
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJNcg_vJ6xSzRT5Vg?e=d6dypX"}
           >
             Anzaldúa, Gloria - Otras Inapropiables. Feminismos Desde Las
             Fronteras
@@ -210,7 +210,7 @@ function Feminismo() {
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaMQx8ziXJk5q1rpZA?e=JXUMR3"}
           >
             Arruzza, Cinzia - Las sin parte. Matrimonios y divorcios entre
             Feminismo y Marxismo
@@ -218,7 +218,7 @@ function Feminismo() {
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIfWepC0SpMQT5rag?e=8IBK3j"}
           >
             Badinter, Elizabeth - Existe el amor maternal. Historia de la
             maternidad, siglo XII al XX
@@ -226,14 +226,14 @@ function Feminismo() {
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJbsEgB5LubNelBng?e=WYkACo"}
           >
             Belfort Bax, Ernest - El Fraude Del Feminismo
           </a>
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJr6egdiABaN_Q2Mw?e=yoCDjL"}
           >
             Braidotti, Rosi - Metamorfosis. Hacia una teoría materialista del
             devenir
@@ -241,9 +241,192 @@ function Feminismo() {
         </ListItem>
         <ListItem button>
           <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgP9NxwD0dBKWS3gTYQ?e=jacw7q"}
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaMHVkdFc-iGOf42jQ?e=RpUOth"}
           >
             Calvera, Leonor - Mujeres Y Feminismo En La Argentina
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaMMsJMlW5Qy0s2S3g?e=dNpnvL"}
+          >
+            Carosio Alba-Vargas Arena Iraida - Feminismo Y Socialismo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIsymTrMRhEcPzTig?e=yN9QYf"}
+          >
+            Carosio, Alba - Feminismo Para Un Cambio Civilizatorio
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJ3YYaTntYdED7ocw?e=Dtuh9M"}
+          >
+            Chejter, Silvia - Feminismos Latinoamericanos. Tensiones, cambios y
+            rupturas
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJnn8yhcmN-yqfGqA?e=4hriGS"}
+          >
+            Cixous, Helene - La Risa de La Medusa. Ensayos sobre la escritura
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaI5VP-A42vHnufbgQ?e=ijl7IR"}
+          >
+            Colaizzi, Giulia - Feminismo y Teoría Del Discurso
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIxcGZKtFfTTotY-A?e=JW3ZDx"}
+          >
+            Craveri, Benedetta - La Cultura de La Conversación
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJ_LIkhc6CS7RWHDg?e=Qdafat"}
+          >
+            CVG Grupo de Mujeres contra la violencia de género - Memoria
+            Cultural Y Feminismo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIj2m1U466q45OFaA?e=9TNk3F"}
+          >
+            D'Atri, Andrea - Pan y Rosas
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJk2dEfRX6jbHlfow?e=bebETm"}
+          >
+            Davis, Angela - Mujeres, Raza y Clase
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJKlo_6ZmsnCasloA?e=aXaEKh"}
+          >
+            De La Fuente Vazquez, Maria - Poder y Feminismo. Elementos para una
+            teoría política
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIl70MDQ9pL3447jg?e=iVcZQh"}
+          >
+            De Lauretis, Teresa - Alicia Ya No - Feminismo Semiótica Cine
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJdQ3NtNzLbRpJbrw?e=Q5bC7W"}
+          >
+            De Lauretis, Teresa - Diferencias Etapas De Un Camino A Traves Del
+            Feminismo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIuAcp3BvMIi1rImg?e=Z9styq"}
+          >
+            Eleijabetia, Carmen - Liberalismo Marxismo Y Feminismo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaI-dXqfBPCZPdZBbg?e=oqz7LX"}
+          >
+            Errazuriz Vidal, Pilar - Misoginia romántica, psiconanálisis y
+            subjetividad femenina
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIZ77p7KKEpDqIobQ?e=9dMSmY"}
+          >
+            Fabbri, Luciano - Apuntes sobre feminismos y construcción de poder
+            popular
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaI27kpMqdZhCE1I1g?e=EfRhGh"}
+          >
+            Fausto-Sterling, Anne - Cuerpos sexuados
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJvZH6veSvp9rQ81A?e=VAaRlE"}
+          >
+            Federici, Silvia - El Calibán y La bruja
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJxhhfMAzteGjD7vQ?e=l2mhNY"}
+          >
+            Fernando Gomez, Luis - El Ecofeminismo De Donna Haraway
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaI27kpMqdZhCE1I1g?e=EfRhGh"}
+          >
+            Fisher, Helen - El primer sexo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIgjoOlECHMaLH-wg?e=asRqlC"}
+          >
+            García Dauder, Silvia - Psicología Y Feminismo
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaI8OOCA_wSICRyMxA?e=kZh9EL"}
+          >
+            Garcia Fores, Estefanía - Ecofeminismos Rurales
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJ5iJzqqXiyicnEag?e=bG9POu"}
+          >
+            Gargallo, Francesca - Antología del Pensamiento Feminista
+            Nuestroamericano Tomo I
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJpNWDrXI5SZSG8Sg?e=aHWNzc"}
+          >
+            Gargallo, Francesca - Antología del Pensamiento Feminista
+            Nuestroamericano Tomo II
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJCyWmP26D6kLnRlQ?e=gKOSkm"}
+          >
+            Gargallo, Francesca - Feminismos Desde Abya Yalas
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaIthvpBqwz5F6d-_w?e=7aAequ"}
+          >
+            Gargallo, Francesca - Ideas feministas latinoamericanas
           </a>
         </ListItem>
       </List>
