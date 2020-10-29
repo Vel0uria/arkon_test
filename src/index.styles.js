@@ -101,7 +101,6 @@ const useStyles = makeStyles(() => ({
     backgroundColor: "#3e3c4a",
     flexDirection: "column",
     alignItems: "center",
-    paddingTop: 120,
     "& a": {
       display: "flex",
       color: "gray",
