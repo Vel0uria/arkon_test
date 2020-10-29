@@ -8,6 +8,7 @@ import Feminismo from "./components/Agua/Feminismo";
 import Agua from "./components/Agua/Agua";
 import Fuego from "./components/Fuego/Fuego";
 import Cine from "./components/Fuego/Cine";
+import Arte from "./components/Agua/Arte";
 import useStyles from "./index.styles";
 function Router() {
   const classes = useStyles();
@@ -20,6 +21,7 @@ function Router() {
         <Route exact path="/agua" component={Agua} />
         <Route exact path="/fuego" component={Fuego} />
         <Route exact path="/cine" component={Cine} />
+        <Route exact path="/arte" component={Arte} />
       </Switch>
       <BottomNavigation showLabels className={classes.nav}>
         <BottomNavigationAction label="Agradecimientos" />

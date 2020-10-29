@@ -13,7 +13,6 @@ function Feminismo() {
         fontSize="large"
         style={{ fontSize: "xxx-large", color: "violet", padding: 80 }}
       />
-
       <List>
         <ListItem button>
           <a

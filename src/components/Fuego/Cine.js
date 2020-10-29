@@ -727,6 +727,71 @@ function Cine() {
             Paola Marrati - Gilles Deleuze ~ Cinema and Philosophy
           </a>
         </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaUsA4FbIFu6G7vRNw?e=jAzOiu"}
+          >
+            Patricia Aufderheide - Documentary Film ~ A Very Short Introduction
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaUQSoKG86FWS_-IXQ?e=fkT54O"}
+          >
+            Paul Rotha - The Film to Now ~ A Survey of World Cinema
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaU_wRvQ86mZN0AOTg?e=Ua7pbc"}
+          >
+            R.Howard Bloch and Frances Ferguson (eds) - Misogyny, Misandry, and
+            Misanthropy
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaV77IAKfCzupicW1A?e=G4Fzza"}
+          >
+            Ren‚ Clair - Cinema Yesterday and Today
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaV3tN3uEW2mD1QPaQ?e=f3veLK"}
+          >
+            Robin Griffiths (ed.) - Queer Cinema in Europe
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaUtFSSOzvXQsPDRMw?e=lPV05W"}
+          >
+            Solórzano, Fernanda - Misterios de la sala oscura
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaVO9thKf_YT_AFBIA?e=i5Dv9R"}
+          >
+            Syd Field - El manual del guionista
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaUygw9c9jZ8jHuygA?e=wsSah5"}
+          >
+            Vogler, Christopher - El viaje del escritor
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaV1ajQvNtwLQjB5aw?e=WK1eQQ"}
+          >
+            William Rothman (ed.) - Three Documentary Fimmakers ~ Errol Morris,
+            Ross McElwee, Jean Rouch
+          </a>
+        </ListItem>
       </List>
     </Box>
   );

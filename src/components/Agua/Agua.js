@@ -26,7 +26,7 @@ function Agua() {
           </Link>
         </ListItem>
         <ListItem>
-          <Link>
+          <Link to="/arte">
             <FontAwesomeIcon
               icon={faPaintBrush}
               style={{ fontSize: "large", color: "silver" }}
