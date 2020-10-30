@@ -7,20 +7,14 @@ const useStyles = makeStyles(() => ({
     flexDirection: "column",
     alignItems: "center",
     fontFamily: "Commissioner",
-    backgroundColor: "#3e3c4a",
+    backgroundColor: "#3e3c4a !important",
     fontWeight: "normal",
-    // backgroundImage: `URL(
-    //  ${"https://cultura-gamer.com/wp-content/uploads/2020/07/cyberpunk-2077-33.jpg"}
-    // )`,
     color: "gray",
-    padding: 150,
-    maxHeight: 1000,
+    padding: 110,
 
-    // "& a": {
-    //   color: "pink",
-    // },
     "& h1": {
       fontWeight: "normal",
+      fontSize: "xxx-large",
     },
     "&:hover": {
       color: "#937bc3s",
@@ -87,11 +81,16 @@ const useStyles = makeStyles(() => ({
   iEarth: {
     "&:hover": { color: "#d99717" },
   },
-  agua: {
-    display: "flex",
-    alignSelf: "flex-start",
-    flexDirection: "column",
-    alignItems: "space-around",
+  // agua: {
+  //   display: "flex",
+  //   alignSelf: "flex-start",
+  //   flexDirection: "column",
+  //   alignItems: "space-around",
+  // },
+  halls: {
+    fontSize: "xxx-large",
+    color: "silver !important",
+    paddingBottom: 60,
   },
   feminism: {
     display: "flex",
@@ -110,11 +109,6 @@ const useStyles = makeStyles(() => ({
       width: 100,
       color: "#fc3b7f",
     },
-  },
-  nav: {
-    padding: 10,
-    backgroundColor: "#3e3c4a !important",
-    color: "gray !important",
   },
 }));
 

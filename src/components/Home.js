@@ -27,11 +27,11 @@ function Home() {
             <WhatshotOutlinedIcon fontSize="large" className={classes.iFire} />
           </Button>
         </Link>
-        {/* <Link> */}
-        <Button>
-          <WavesIcon fontSize="large" className={classes.iAir} />
-        </Button>
-        {/* </Link> */}
+        <Link to="/aire">
+          <Button>
+            <WavesIcon fontSize="large" className={classes.iAir} />
+          </Button>
+        </Link>
         <Link to="/agua">
           <Button>
             <OpacitySharpIcon fontSize="large" className={classes.iWater} />

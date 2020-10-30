@@ -10,7 +10,7 @@ function Cine() {
     <Box className={classes.feminism}>
       <FontAwesomeIcon
         icon={faFilm}
-        style={{ fontSize: "xxx-large", color: "violet", padding: 80 }}
+        style={{ fontSize: "xxx-large", color: "goldenrod", padding: 80 }}
       />
       <List>
         <ListItem button>

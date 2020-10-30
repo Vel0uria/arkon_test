@@ -4,19 +4,24 @@ import useStyles from "../../index.styles";
 import { Box, List, ListItem } from "@material-ui/core";
 import WhatshotOutlinedIcon from "@material-ui/icons/WhatshotOutlined";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilm } from "@fortawesome/free-solid-svg-icons";
+import { faFilm, faMicroscope } from "@fortawesome/free-solid-svg-icons";
 function Fuego() {
   const classes = useStyles();
   return (
     <Box className={classes.root}>
-      <WhatshotOutlinedIcon fontSize="large" />
-      <List>
+      <WhatshotOutlinedIcon
+        style={{ fontSize: "xxx-large", color: "crimson", paddingBottom: 60 }}
+      />
+      <List className={classes.halls}>
         <ListItem>
           <Link to="/cine">
-            <FontAwesomeIcon
-              icon={faFilm}
-              style={{ fontSize: "x-large", color: "silver" }}
-            />
+            <FontAwesomeIcon icon={faFilm} color="silver" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link>
+            <FontAwesomeIcon icon={faMicroscope} color="silver" />
+            {/* style={{ fontSize: "xx-large", color: "silver", padding: 10 }} */}
           </Link>
         </ListItem>
       </List>
