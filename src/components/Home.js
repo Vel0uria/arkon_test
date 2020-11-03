@@ -18,7 +18,9 @@ function Home() {
       <p>Biblioteca</p>
       <Box className={classes.star}>
         <Button>
-          <AllInclusiveSharpIcon fontSize="large" />
+          <Link to="/magia">
+            <AllInclusiveSharpIcon fontSize="large" />
+          </Link>
         </Button>
       </Box>
       <Box className={classes.icons}>

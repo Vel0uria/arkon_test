@@ -54,7 +54,7 @@ const useStyles = makeStyles(() => ({
     //  opacity: 0.5,
   },
   star: {
-    marginTop: 100,
+    marginTop: Math.floor(Math.random() * 150),
     // color: "#4e4c5a",
     marginBottom: 100,
     marginLeft: Math.floor(Math.random() * 150),

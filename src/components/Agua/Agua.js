@@ -15,8 +15,7 @@ function Agua() {
           style={{ color: "lightblue", fontSize: "xxx-large" }}
         />
       </Box>
-      {/* <Box className={classes.agua}> */}
-      <List>
+      <List className={classes.halls}>
         <ListItem>
           <Link to="/feminismo">
             <FontAwesomeIcon
