@@ -17,11 +17,11 @@ function Home() {
       <h1>ARCADIA</h1>
       <p>Biblioteca</p>
       <Box className={classes.star}>
-        <Button>
-          <Link to="/magia">
+        <Link to="/magia">
+          <Button>
             <AllInclusiveSharpIcon fontSize="large" />
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       </Box>
       <Box className={classes.icons}>
         <Link to="/fuego">

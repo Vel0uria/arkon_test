@@ -11,7 +11,7 @@ function Feminismo() {
       <FontAwesomeIcon
         icon={faVenus}
         fontSize="large"
-        style={{ fontSize: "xxx-large", color: "violet", padding: 80 }}
+        style={{ fontSize: "xxx-large", color: "hotPink", padding: 80 }}
       />
       <List>
         <ListItem button>

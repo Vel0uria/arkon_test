@@ -21,14 +21,9 @@ const useStyles = makeStyles(() => ({
     },
   },
   icons: {
-    color: "gray",
     "& Button": {
       marginLeft: 20,
       color: "#4e4c5a",
-      //   backgroundColor: "black",
-      // "&:hover": {
-      //   color: "goldenrod",
-      // },
     },
   },
   textField: {
@@ -54,19 +49,21 @@ const useStyles = makeStyles(() => ({
     //  opacity: 0.5,
   },
   star: {
-    marginTop: Math.floor(Math.random() * 150),
-    // color: "#4e4c5a",
+    marginTop: Math.floor(Math.random() * 170),
     marginBottom: 100,
     marginLeft: Math.floor(Math.random() * 150),
     marginRight: Math.floor(Math.random() * 150),
-
-    // color: "",
+    // color: "#3e3c4a !important",
     "& Button": {
-      color: "#3e3c4a",
-      width: "9vw",
+      color: "#3e3c4a !important",
       "&:hover": {
-        color: "#947bc2",
+        color: "#947bc2 !important",
       },
+    },
+  },
+  iInfinite: {
+    "& Button": {
+      color: "#4e4c5a !important",
     },
   },
   iFire: {
@@ -96,7 +93,6 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     fontFamily: "Cinzel Decorative",
     fontSize: "larger",
-    color: "goldenrod",
     backgroundColor: "#3e3c4a",
     flexDirection: "column",
     alignItems: "center",

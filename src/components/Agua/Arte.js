@@ -45,6 +45,27 @@ function Arte() {
         </ListItem>
         <ListItem>
           <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgal7lMmLuRtc24UUkA?e=cdZghU"}
+          >
+            Dekker, Antoinette - Enabling the Future, or How to survive forever
+          </a>
+        </ListItem>
+        <ListItem>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgalmLS8KkLKx2WhEWw?e=8DUeS0"}
+          >
+            Doran, Kerry - There's no business like...
+          </a>
+        </ListItem>
+        <ListItem>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgallWmvW5TRNbZ4hsA?e=NJxf1R"}
+          >
+            Douglas, Nick - Journal of visual culture
+          </a>
+        </ListItem>
+        <ListItem>
+          <a
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaYw5tEljTU3COPCRw?e=1q9rUz"}
           >
             Duchamp, Marcel - Escritos. Duchamp du signe
@@ -86,21 +107,28 @@ function Arte() {
             Experimental Art
           </a>
         </ListItem>
+
+        <ListItem>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgalkEjuAHWHhC8nN8w?e=2DH69V"}
+          >
+            Lialina, Olia - The vernacular web (La web vernacular)
+          </a>
+        </ListItem>
+        <ListItem>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgalnBGF63Nt26gpPog?e=DSXIwx"}
+          >
+            Manovich, Lev - Software takes command. International texts in
+            critical media aesthetics
+          </a>
+        </ListItem>
         <ListItem>
           <a
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaYqvCt7CAsorDtfMA?e=3NwcUk"}
           >
             Preziosi, Donald - That Obscure Object of Desire. The Art of Art
             History
-          </a>
-        </ListItem>
-        <ListItem>
-          <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgacG2FRb2dy114gW-A?e=AtCqce"}
-          >
-            Quiroz, Marcela - La ilusión de ser fotógrafo: Hacia una
-            fenomenología de la fotografía estenopeica a partir de la obra de
-            Carlos Jurado
           </a>
         </ListItem>
         <ListItem>
@@ -133,34 +161,6 @@ function Arte() {
           >
             XXXVI ColoquIo Internacional de Historia del Arte - Los estatutos de
             la Imagen. Creación-Manifestación-Percepción
-          </a>
-        </ListItem>
-        <ListItem>
-          <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgacG2FRb2dy114gW-A?e=AtCqce"}
-          >
-            Art History, Vol 1
-          </a>
-        </ListItem>
-        <ListItem>
-          <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgacG2FRb2dy114gW-A?e=AtCqce"}
-          >
-            Art History, Vol 1
-          </a>
-        </ListItem>
-        <ListItem>
-          <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgacG2FRb2dy114gW-A?e=AtCqce"}
-          >
-            Art History, Vol 1
-          </a>
-        </ListItem>
-        <ListItem>
-          <a
-            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgacG2FRb2dy114gW-A?e=AtCqce"}
-          >
-            Art History, Vol 1
           </a>
         </ListItem>
       </List>
