@@ -85,6 +85,13 @@ function Arte() {
             Eliasson, Olafur - Los modelos son reales
           </a>
         </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaJc7z-UftMNQ70s0w?e=rmDdAz"}
+          >
+            Haraway, Donna - Ciencia, cyborgs y mujeres
+          </a>
+        </ListItem>
         <ListItem>
           <a
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaYmNA3rHonHXbACKg?e=I1NDyK"}

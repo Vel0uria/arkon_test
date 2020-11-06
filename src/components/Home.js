@@ -39,15 +39,14 @@ function Home() {
             <OpacitySharpIcon fontSize="large" className={classes.iWater} />
           </Button>
         </Link>
-        {/* <Link> */}
-        <Button>
-          <FiberManualRecordTwoToneIcon
-            fontSize="large"
-            className={classes.iEarth}
-          />
-        </Button>
-
-        {/* </Link> */}
+        <Link to="/tierra">
+          <Button>
+            <FiberManualRecordTwoToneIcon
+              fontSize="large"
+              className={classes.iEarth}
+            />
+          </Button>
+        </Link>
       </Box>
     </Box>
   );

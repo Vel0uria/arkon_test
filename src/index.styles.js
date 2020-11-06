@@ -21,8 +21,9 @@ const useStyles = makeStyles(() => ({
     },
   },
   icons: {
+    display: "flex",
+    justifyContent: "center",
     "& Button": {
-      marginLeft: 20,
       color: "#4e4c5a",
     },
   },
@@ -85,8 +86,8 @@ const useStyles = makeStyles(() => ({
   //   alignItems: "space-around",
   // },
   halls: {
-    fontSize: "xxx-large",
-    color: "silver !important",
+    fontSize: "xx-large",
+    color: "silver",
     paddingBottom: 60,
   },
   feminism: {

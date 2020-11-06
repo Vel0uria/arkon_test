@@ -16,19 +16,19 @@ function Agua() {
         />
       </Box>
       <List className={classes.halls}>
-        <ListItem>
+        <ListItem button>
           <Link to="/feminismo">
             <FontAwesomeIcon
               icon={faVenus}
-              style={{ fontSize: "xx-large", color: "silver" }}
+              style={{ fontSize: "xxx-large", color: "silver" }}
             />
           </Link>
         </ListItem>
-        <ListItem>
+        <ListItem button>
           <Link to="/arte">
             <FontAwesomeIcon
               icon={faPaintBrush}
-              style={{ fontSize: "large", color: "silver" }}
+              style={{ fontSize: "xx-large", color: "silver" }}
             />
           </Link>
         </ListItem>

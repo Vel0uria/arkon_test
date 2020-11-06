@@ -8,6 +8,7 @@ import Feminismo from "./components/Agua/Feminismo";
 import Agua from "./components/Agua/Agua";
 import Fuego from "./components/Fuego/Fuego";
 import Aire from "./components/Aire/Aire";
+import Tierra from "./components/Tierra/Tierra";
 import Magia from "./components/Amm/Magia";
 import Cine from "./components/Fuego/Cine";
 import Arte from "./components/Agua/Arte";
@@ -24,6 +25,7 @@ function Router() {
         <Route exact path="/agua" component={Agua} />
         <Route exact path="/fuego" component={Fuego} />
         <Route exact path="/aire" component={Aire} />
+        <Route exact path="/tierra" component={Tierra} />
         <Route exact path="/cine" component={Cine} />
         <Route exact path="/arte" component={Arte} />
         <Route exact path="/feminismo" component={Feminismo} />
