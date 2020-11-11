@@ -148,6 +148,7 @@ function Magia() {
             Kramer, Heinrich et al - Malleus Maleficarum
           </a>
         </ListItem>
+
         <ListItem button>
           <a
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaltIYtSv1tAilJqFQ?e=89Nsyi"}
@@ -191,6 +192,13 @@ function Magia() {
           >
             Prada, Luigi - Oneirocritica Aegyptiaca Artemidorus of Daldis,
             Egypt, and the Contemporary Oneirocritic Literature in Egyptian
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgaoDD4_hA-ktLV-UfQ?e=fMcszi"}
+          >
+            Regardie, Israel - La Aurora Dorada (4 tomos)
           </a>
         </ListItem>
         <ListItem button>

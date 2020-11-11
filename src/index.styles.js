@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-
+import ankh from "./assets/ankh.svg";
 const useStyles = makeStyles(() => ({
   root: {
     display: "flex",
@@ -8,6 +8,7 @@ const useStyles = makeStyles(() => ({
     alignItems: "center",
     fontFamily: "Commissioner",
     backgroundColor: "#3e3c4a !important",
+
     fontWeight: "normal",
     color: "gray",
     padding: 110,
@@ -94,7 +95,11 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     fontFamily: "Cinzel Decorative",
     fontSize: "larger",
+    paddingBottom: 1000,
     backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${ankh})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
     flexDirection: "column",
     alignItems: "center",
     "& a": {
