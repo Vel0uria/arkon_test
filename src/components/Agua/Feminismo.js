@@ -7,7 +7,7 @@ import { faVenus } from "@fortawesome/free-solid-svg-icons";
 function Feminismo() {
   const classes = useStyles();
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.fem}>
       <FontAwesomeIcon
         icon={faVenus}
         fontSize="large"

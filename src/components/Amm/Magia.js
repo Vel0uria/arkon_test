@@ -1,15 +1,17 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import useStyles from "../../index.styles";
 import { Box, List, ListItem } from "@material-ui/core";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AllInclusiveSharpIcon from "@material-ui/icons/AllInclusiveSharp";
 function Magia() {
   const classes = useStyles();
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.magia}>
       <AllInclusiveSharpIcon
-        style={{ fontSize: "xxx-large", color: "RebeccaPurple", padding: 80 }}
+        style={{
+          fontSize: "xxx-large",
+          color: "LightGoldenrodYellow",
+          padding: 80,
+        }}
       />
       <List>
         <ListItem button>
@@ -176,6 +178,13 @@ function Magia() {
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgal8QBqajpQxy_ELjg?e=0j8G3B"}
           >
             Lévi, Eliphas - La ciencia de los espíritus
+          </a>
+        </ListItem>
+        <ListItem button>
+          <a
+            href={"https://1drv.ms/b/s!AqIbM7aE-jvIgasF6Cji5IJ7TnOaQQ?e=XKTVUp"}
+          >
+            McKenna, Terence - El manjar de los dioses
           </a>
         </ListItem>
         <ListItem button>

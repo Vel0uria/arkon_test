@@ -14,6 +14,7 @@ import Cine from "./components/Fuego/Cine";
 import Arte from "./components/Agua/Arte";
 import Politica from "./components/Aire/Politica";
 import Filos from "./components/Aire/Filos";
+import Foto from "./components/Fuego/Foto";
 import useStyles from "./index.styles";
 
 function Router() {
@@ -33,6 +34,7 @@ function Router() {
         <Route exact path="/politica" component={Politica} />
         <Route exact path="/filos" component={Filos} />
         <Route exact path="/magia" component={Magia} />
+        <Route exact path="/foto" component={Foto} />
       </Switch>
       <BottomNavigation showLabels className={classes.root}>
         <BottomNavigationAction label="Agradecimientos" />

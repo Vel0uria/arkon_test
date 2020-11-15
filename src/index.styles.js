@@ -1,5 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
 import ankh from "./assets/ankh.svg";
+import film from "./assets/film-strip.svg";
+import speech from "./assets/speech.svg";
+import philosophy from "./assets/philosophy.svg";
+import roll from "./assets/film-roll.svg";
+import fem from "./assets/feminism.svg";
 const useStyles = makeStyles(() => ({
   root: {
     display: "flex",
@@ -35,10 +40,6 @@ const useStyles = makeStyles(() => ({
     fontWeight: "normal",
     "& p": {
       fontSize: "0.64em",
-      //  marginLeft: 70,
-      // paddingLeft: "25px",
-      // paddingRight: "25px",
-      //backgroundColor: "black",
     },
   },
   container: {
@@ -91,14 +92,14 @@ const useStyles = makeStyles(() => ({
     color: "silver",
     paddingBottom: 60,
   },
-  feminism: {
+  magia: {
     display: "flex",
-    fontFamily: "Cinzel Decorative",
     fontSize: "larger",
     paddingBottom: 1000,
     backgroundColor: "#3e3c4a",
     backgroundImage: `URL(${ankh})`,
     backgroundRepeat: "no-repeat",
+    //  backgroundPosition: "right",
     backgroundSize: "cover",
     flexDirection: "column",
     alignItems: "center",
@@ -110,6 +111,89 @@ const useStyles = makeStyles(() => ({
     "& img": {
       width: 100,
       color: "#fc3b7f",
+    },
+  },
+  cine: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 1000,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${film})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
+    },
+  },
+  foto: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 2000,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${roll})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
+    },
+  },
+  poli: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 1000,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${speech})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
+    },
+  },
+  filos: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 1200,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${philosophy})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "left",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
+    },
+  },
+  fem: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 1200,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${fem})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "left",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
     },
   },
 }));

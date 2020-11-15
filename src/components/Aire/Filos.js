@@ -7,7 +7,7 @@ import { faLandmark } from "@fortawesome/free-solid-svg-icons";
 function Filos() {
   const classes = useStyles();
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.filos}>
       <FontAwesomeIcon
         icon={faLandmark}
         style={{ fontSize: "xxx-large", color: "lightblue", padding: 80 }}

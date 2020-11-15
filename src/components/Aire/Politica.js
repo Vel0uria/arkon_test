@@ -7,7 +7,7 @@ import { faBalanceScaleRight } from "@fortawesome/free-solid-svg-icons";
 function Politica() {
   const classes = useStyles();
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.poli}>
       <FontAwesomeIcon
         icon={faBalanceScaleRight}
         style={{ fontSize: "xxx-large", color: "lightyellow", padding: 80 }}

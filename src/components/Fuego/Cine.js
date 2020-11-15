@@ -7,7 +7,7 @@ function Cine() {
   const classes = useStyles();
 
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.cine}>
       <FontAwesomeIcon
         icon={faFilm}
         style={{ fontSize: "xxx-large", color: "goldenrod", padding: 80 }}
