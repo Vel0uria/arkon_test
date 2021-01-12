@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import { Button, Box } from "@material-ui/core";
-import loop from "../assets/elBueno.gif";
 import useStyles from "../index.styles";
 import RadioButtonCheckedTwoToneIcon from "@material-ui/icons/RadioButtonCheckedTwoTone";
 import Brightness7TwoToneIcon from "@material-ui/icons/Brightness7TwoTone";
@@ -21,7 +20,7 @@ function Hall() {
   return (
     <Box className={classes.root}>
       <Button onClick={() => showForm(!show)}>
-        <h1>Quién eres</h1>
+        <h1>¿Quién eres?</h1>
       </Button>
       {show &&
         <Box component="form" className={classes.textField}>
@@ -78,7 +77,7 @@ function Hall() {
       {showwwwwww &&
         <Box>
           <Box className={classes.container}>
-            <img src={loop} className={classes.image} />
+            {/* <img src={loop} className={classes.image} /> */}
             <p
               style={{
                 color: "goldenrod",

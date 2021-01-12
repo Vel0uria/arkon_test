@@ -15,6 +15,7 @@ import Arte from "./components/Agua/Arte";
 import Politica from "./components/Aire/Politica";
 import Filos from "./components/Aire/Filos";
 import Foto from "./components/Fuego/Foto";
+import Totem from "./components/Totem";
 import useStyles from "./index.styles";
 
 function Router() {
@@ -35,6 +36,7 @@ function Router() {
         <Route exact path="/filos" component={Filos} />
         <Route exact path="/magia" component={Magia} />
         <Route exact path="/foto" component={Foto} />
+        <Route exact path="/totem" component={Totem} />
       </Switch>
       <BottomNavigation showLabels className={classes.root}>
         <BottomNavigationAction label="Agradecimientos" />

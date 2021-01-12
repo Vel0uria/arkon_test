@@ -5,6 +5,8 @@ import speech from "./assets/speech.svg";
 import philosophy from "./assets/philosophy.svg";
 import roll from "./assets/film-roll.svg";
 import fem from "./assets/feminism.svg";
+import art from "./assets/key-outline.svg";
+
 const useStyles = makeStyles(() => ({
   root: {
     display: "flex",
@@ -99,7 +101,6 @@ const useStyles = makeStyles(() => ({
     backgroundColor: "#3e3c4a",
     backgroundImage: `URL(${ankh})`,
     backgroundRepeat: "no-repeat",
-    //  backgroundPosition: "right",
     backgroundSize: "cover",
     flexDirection: "column",
     alignItems: "center",
@@ -195,6 +196,60 @@ const useStyles = makeStyles(() => ({
       color: "gray",
       fontFamily: "Commissioner",
     },
+  },
+  arte: {
+    display: "flex",
+    fontSize: "larger",
+    paddingBottom: 1400,
+    paddingRight: 200,
+    backgroundColor: "#3e3c4a",
+    backgroundImage: `URL(${art})`,
+    backgroundRepeat: "no-repeat",
+    // backgroundPosition: "right",
+    backgroundSize: "cover",
+    flexDirection: "column",
+    alignItems: "center",
+    "& a": {
+      display: "flex",
+      color: "gray",
+      fontFamily: "Commissioner",
+    },
+  },
+  totem: {
+    backgroundColor: "black",
+    color: "pink",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    fontFamily: "Commissioner",
+    padding: 200,
+  },
+  mercury: {
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+  },
+  mercuryIcon: {
+    position: "absolute",
+    height: 390,
+  },
+  loop: {
+    position: "absolute",
+    opacity: 0.6,
+    height: 480,
+    marginTop: -50,
+    marginLeft: 10,
+  },
+  circuit: {
+    transform: "rotate(90deg)",
+    margin: 370,
+  },
+  pendu: {
+    position: "relative",
+    display: "flex",
+    justifyContent: "center",
+    marginTop: 400,
   },
 }));
 

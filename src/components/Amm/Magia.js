@@ -2,6 +2,7 @@ import React from "react";
 import useStyles from "../../index.styles";
 import { Box, List, ListItem } from "@material-ui/core";
 import AllInclusiveSharpIcon from "@material-ui/icons/AllInclusiveSharp";
+
 function Magia() {
   const classes = useStyles();
   return (
@@ -21,6 +22,7 @@ function Magia() {
             (Varios) - La santa biblia (versión biblia de Jerusalén)
           </a>
         </ListItem>
+
         <ListItem button>
           <a
             href={"https://1drv.ms/b/s!AqIbM7aE-jvIgal9fxpYbLcwKzA7WQ?e=D8nfkD"}

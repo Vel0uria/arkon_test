@@ -7,7 +7,7 @@ import { Box, List, ListItem } from "@material-ui/core";
 function Arte() {
   const classes = useStyles();
   return (
-    <Box className={classes.feminism}>
+    <Box className={classes.arte}>
       <FontAwesomeIcon
         icon={faPaintBrush}
         fontSize="large"
