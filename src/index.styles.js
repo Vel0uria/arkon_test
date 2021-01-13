@@ -222,34 +222,31 @@ const useStyles = makeStyles(() => ({
     flexDirection: "column",
     alignItems: "center",
     fontFamily: "Commissioner",
-    padding: 200,
+    margin: "100 !important",
   },
   mercury: {
     position: "relative",
     display: "flex",
     alignItems: "center",
     flexDirection: "column",
+    marginBottom: 100,
   },
   mercuryIcon: {
     position: "absolute",
     height: 390,
   },
   loop: {
-    position: "absolute",
-    opacity: 0.6,
     height: 480,
-    marginTop: -50,
     marginLeft: 10,
   },
   circuit: {
     transform: "rotate(90deg)",
-    margin: 370,
-  },
-  pendu: {
+    margin: 350,
     position: "relative",
+  },
+  stars: {
+    position: "absolute",
     display: "flex",
-    justifyContent: "center",
-    marginTop: 400,
   },
 }));
 
